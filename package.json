@@ -1,5 +1,5 @@
 {
-  "name": "@mihkeleidast/cottonmouth",
+  "name": "@gotoandplay/cottonmouth",
   "version": "1.0.1",
   "description": "An asset dependency sorting system for Fractal.",
   "main": "index.js",
