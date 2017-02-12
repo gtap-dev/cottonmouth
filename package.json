@@ -1,0 +1,25 @@
+{
+  "name": "@gtap-dev/cottonmouth",
+  "version": "0.1.0",
+  "description": "An asset dependency sorting system for Fractal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtap-dev/cottonmouth.git"
+  },
+  "author": "gotoAndPlay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtap-dev/cottonmouth/issues"
+  },
+  "homepage": "https://github.com/gtap-dev/cottonmouth#readme",
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "topo-sort": "^1.0.0"
+  }
+}
