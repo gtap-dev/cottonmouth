@@ -85,7 +85,7 @@ module.exports = function(config) {
         var tsort = new Sort();
 
         for( var i = 0; i < components.length; i++ ) {
-            tsort.add(components[i].name, components[i].deps);
+            tsort.add(components[i].name, components[i].deps.components || []);
         }
 
         return _.union(config.prependComponents, _.difference(tsort.sort().reverse(), config.appendComponents), config.appendComponents);
