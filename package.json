@@ -1,6 +1,6 @@
 {
   "name": "@gotoandplay/cottonmouth",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An asset dependency sorting system for Fractal.",
   "main": "index.js",
   "scripts": {
