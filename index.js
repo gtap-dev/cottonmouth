@@ -49,7 +49,7 @@ module.exports = function(config) {
 
             if( item ) {
                 var obj = {
-                    name: item.name,
+                    name: item.handle,
                     deps: getComponentDependencies(item),
                     assets: getComponentAssets(item)
                 }
